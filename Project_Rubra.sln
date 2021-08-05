@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project_Rubra", "Project_Rubra\Project_Rubra.vcxproj", "{9862EE8C-0460-4445-AD34-A9622F93D375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Debug|x64.ActiveCfg = Debug|x64
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Debug|x64.Build.0 = Debug|x64
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Debug|x86.ActiveCfg = Debug|Win32
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Debug|x86.Build.0 = Debug|Win32
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Release|x64.ActiveCfg = Release|x64
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Release|x64.Build.0 = Release|x64
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Release|x86.ActiveCfg = Release|Win32
+		{9862EE8C-0460-4445-AD34-A9622F93D375}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FCAB62F-1D64-4B7B-AF39-05B170DA908B}
+	EndGlobalSection
+EndGlobal
