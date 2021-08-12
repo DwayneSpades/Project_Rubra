@@ -13,14 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Shaders">
-      <UniqueIdentifier>{e4cece8d-683d-4c8f-a3f0-01482a26bdb2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\GLFW">
       <UniqueIdentifier>{494a9265-f2f8-4411-8b68-0622e786f7b0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Render_Profile">
-      <UniqueIdentifier>{c44a0953-b9f8-443a-9e19-7a58ba025127}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Shader_Code">
       <UniqueIdentifier>{6b9f6a27-c35c-4558-a2cc-b905533ac063}</UniqueIdentifier>
@@ -28,14 +22,29 @@
     <Filter Include="Source Files\Math_Library">
       <UniqueIdentifier>{002ecbbf-ba45-4388-a6ad-ebdb3a7a65ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\utilities">
-      <UniqueIdentifier>{b44fe186-1e6c-4080-abe3-c9e8499fb6ec}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\graphics object">
       <UniqueIdentifier>{6a0f2412-991b-40bf-9ff0-ec3195b354cc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Model">
       <UniqueIdentifier>{c82736ac-d748-4291-b941-15246fa15b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Render_application">
+      <UniqueIdentifier>{c44a0953-b9f8-443a-9e19-7a58ba025127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{b44fe186-1e6c-4080-abe3-c9e8499fb6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader classes">
+      <UniqueIdentifier>{e4cece8d-683d-4c8f-a3f0-01482a26bdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{201e4cb9-e63a-471a-8c9c-c78508b0e176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\include">
+      <UniqueIdentifier>{48d94f00-7091-4564-8e2d-df0b10724b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\libs">
+      <UniqueIdentifier>{3ea98964-94a8-4b90-b78f-c448e026bcc4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -46,13 +55,13 @@
       <Filter>Source Files\GLFW</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\window_settings.cpp">
-      <Filter>Source Files\Render_Profile</Filter>
+      <Filter>Source Files\Render_application</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\opengl_app.cpp">
-      <Filter>Source Files\Render_Profile</Filter>
+      <Filter>Source Files\Render_application</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\shaderBase.cpp">
-      <Filter>Source Files\Shaders</Filter>
+      <Filter>Source Files\Shader classes</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\vector.cpp">
       <Filter>Source Files\Math_Library</Filter>
@@ -61,7 +70,7 @@
       <Filter>Source Files\Math_Library</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\camera.cpp">
-      <Filter>Source Files\utilities</Filter>
+      <Filter>Source Files\camera</Filter>
     </ClCompile>
     <ClCompile Include="src\Engine\graphicsObject.cpp">
       <Filter>Source Files\graphics object</Filter>
@@ -75,13 +84,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Engine\window_settings.h">
-      <Filter>Source Files\Render_Profile</Filter>
+      <Filter>Source Files\Render_application</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine\opengl_app.h">
-      <Filter>Source Files\Render_Profile</Filter>
+      <Filter>Source Files\Render_application</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine\shaderBase.h">
-      <Filter>Source Files\Shaders</Filter>
+      <Filter>Source Files\Shader classes</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine\vector.h">
       <Filter>Source Files\Math_Library</Filter>
@@ -90,7 +99,7 @@
       <Filter>Source Files\Math_Library</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine\camera.h">
-      <Filter>Source Files\utilities</Filter>
+      <Filter>Source Files\camera</Filter>
     </ClInclude>
     <ClInclude Include="src\Engine\graphicsObject.h">
       <Filter>Source Files\graphics object</Filter>
@@ -101,6 +110,18 @@
     <ClInclude Include="src\Engine\stb_image.h">
       <Filter>Source Files\GLFW</Filter>
     </ClInclude>
+    <ClInclude Include="Libraries\inclube\glad\glad.h">
+      <Filter>Libraries\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\inclube\KHR\khrplatform.h">
+      <Filter>Libraries\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\inclube\GLFW\glfw3.h">
+      <Filter>Libraries\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\inclube\GLFW\glfw3native.h">
+      <Filter>Libraries\include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\myShader_F.fs">
@@ -109,5 +130,10 @@
     <None Include="Assets\Shaders\myShader.vs">
       <Filter>Source Files\Shader_Code</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\lib\glfw3.lib">
+      <Filter>Libraries\libs</Filter>
+    </Library>
   </ItemGroup>
 </Project>

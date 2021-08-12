@@ -26,5 +26,5 @@ private:
 	const char* _windowName = nullptr;
 	float _width = 0;
 	float _height = 0;
-
+	
 };

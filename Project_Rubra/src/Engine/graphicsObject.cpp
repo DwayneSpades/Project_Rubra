@@ -19,7 +19,6 @@ graphicsObject::graphicsObject(shaderBase* s, unsigned int vao, unsigned int vbo
 
 }
 
-
 graphicsObject::graphicsObject(shaderBase* shader, vector<vertex> verts, vector<int> inds, vector4 pos, const char* s)
 {
 	//set data that's specific to the graphic object's shader type

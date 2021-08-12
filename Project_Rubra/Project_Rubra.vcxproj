@@ -158,6 +158,10 @@
     <ClCompile Include="src\glad.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Libraries\inclube\glad\glad.h" />
+    <ClInclude Include="Libraries\inclube\GLFW\glfw3.h" />
+    <ClInclude Include="Libraries\inclube\GLFW\glfw3native.h" />
+    <ClInclude Include="Libraries\inclube\KHR\khrplatform.h" />
     <ClInclude Include="src\Engine\camera.h" />
     <ClInclude Include="src\Engine\graphicsObject.h" />
     <ClInclude Include="src\Engine\matrix.h" />
@@ -171,6 +175,9 @@
   <ItemGroup>
     <None Include="Assets\Shaders\myShader.vs" />
     <None Include="Assets\Shaders\myShader_F.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\lib\glfw3.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

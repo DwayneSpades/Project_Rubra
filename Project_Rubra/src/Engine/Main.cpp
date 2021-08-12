@@ -12,11 +12,13 @@
 int main() 
 {
 	opengl_app* application = new opengl_app();
-
+	/// <summary>
+	// Start of Engine
+	/// </summary>
+	/// <returns></returns>
 	application->load();
 
-	application->update();
-
+	//rendering phase
 	application->draw();
 
 	application->terminate();
