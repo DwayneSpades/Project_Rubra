@@ -1,4 +1,1 @@
-﻿  graphicsObject.cpp
-C:\Users\dwayn\Documents\GitHub\Project_Rubra\Project_Rubra\src\Engine\graphicsObject.cpp(111,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-C:\Users\dwayn\Documents\GitHub\Project_Rubra\Project_Rubra\src\Engine\graphicsObject.cpp(143,65): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  Project_Rubra.vcxproj -> C:\Users\dwayn\Documents\GitHub\Project_Rubra\x64\Debug\Project_Rubra.exe
+﻿  Project_Rubra.vcxproj -> C:\Users\dwayn\Documents\expiriment\p_r\x64\Debug\Project_Rubra.exe

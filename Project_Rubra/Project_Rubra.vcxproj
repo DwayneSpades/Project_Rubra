@@ -72,16 +72,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\dwayn\Documents\Game_Dev\Game_Projects\C++\OpenGL_2D\Project_Rubra\Project_Rubra\Libraries\inclube;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\dwayn\Documents\Game_Dev\Game_Projects\C++\OpenGL_2D\Project_Rubra\Project_Rubra\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Project_Rubra\Libraries\inclube;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Project_Rubra\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>  </ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\dwayn\Documents\Game_Dev\Game_Projects\C++\OpenGL_2D\Project_Rubra\Project_Rubra\Libraries\inclube;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\dwayn\Documents\Game_Dev\Game_Projects\C++\OpenGL_2D\Project_Rubra\Project_Rubra\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)Project_Rubra\Libraries\inclube;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Project_Rubra\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <ExternalIncludePath>  </ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
